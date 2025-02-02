@@ -1,3 +1,5 @@
+// Variáveis
+
 let FirstName = 'Rodolfo'
 console.log(FirstName)
 
