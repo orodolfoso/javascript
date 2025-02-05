@@ -36,4 +36,6 @@ const all = document.querySelectorAll("p")
 
 console.log(all)
 
+const element = document.querySelector("main-input")
 
+console.log(element.placeholder)
