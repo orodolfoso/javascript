@@ -12,7 +12,7 @@ const contacts = [
   {name: 'José', number: '(12) 94587-2315'}
 ];
 
-function search() { 
+function search() {
 
 for (const contact of contacts) {
 

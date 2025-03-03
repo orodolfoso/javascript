@@ -8,6 +8,9 @@ Estrutura de repetição - LOOP
 
 const users = {name: 'Rodolfo', age: 39, street: 'Brinco de ouro'}
 
-for (const user in users) {
-   console.log(users.name)
+// users.name -> Rodolfo
+// users['name'] -> Rodolfo
+
+for (const key in users) {
+   console.log(` ${key} : ${users[key]}`)
 }
