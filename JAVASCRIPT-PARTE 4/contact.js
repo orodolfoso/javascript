@@ -12,19 +12,36 @@ const contacts = [
   {name: 'José', number: '(12) 94587-2315'}
 ];
 
+function search() { 
 
-function search() {
-    for(let i = 0; i < contacts.length; i++ ) {
+for (const contact of contacts) {
 
-        if(input.value.toLocaleLowerCase() === contacts[i].name.toLocaleLowerCase()) {
-            p.innerHTML = `Contato encontrado Nome: ${contacts[i].name} Tel: ${contacts[i].number}`
+    if(input.value.toLocaleLowerCase() === contact.name.toLocaleLowerCase()) {
+        p.innerHTML = `Contato encontrado Nome: ${contact.name} Tel: ${contact.number}`
 
-            break
+        break
 
-        }else {
-            p.innerHTML = "Contato não encontrado, tente novamente"
-        }
+    } else {
+        p.innerHTML = "Contato não encontrado, tente novamente"
     }
+}
+
+}
+
+
+
+// function search() {
+//     for(let i = 0; i < contacts.length; i++ ) {
+
+//         if(input.value.toLocaleLowerCase() === contacts[i].name.toLocaleLowerCase()) {
+//             p.innerHTML = `Contato encontrado Nome: ${contacts[i].name} Tel: ${contacts[i].number}`
+
+//             break
+
+//         }else {
+//             p.innerHTML = "Contato não encontrado, tente novamente"
+//         }
+//     }
 
   
-}
+// }
