@@ -1,4 +1,8 @@
-// Tipo de dados Numeros - Numbers
+/*
+
+Tipo de dados Numeros - Numbers
+
+*/ 
 
 const number1 = 32 / 2
 const FakeNumber = "32 / 2"
