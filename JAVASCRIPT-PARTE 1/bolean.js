@@ -1,4 +1,10 @@
-// Tipos de dados Boleano - Bolean
+/*
+Tipos de dados Boleano - Bolean
+
+True ou False
+
+
+*/ 
 
 let diaSemana = "quarta-feira";
 

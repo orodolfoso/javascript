@@ -1,6 +1,11 @@
-// Tipos de dados Obejetos - Object
+/*
 
-const rodolfo = {
+Tipos de dados Obejetos - Object
+
+
+*/ 
+
+const person = {
     name: 'Rodolfo',
     age: 30,
     address: {
@@ -14,8 +19,8 @@ const rodolfo = {
     }
 }
 
-rodolfo.address.number = 520
-rodolfo.name = 'Lucas'
-rodolfo.age = 12
+person.address.number = 520
+person.name = 'Lucas'
+person.age = 12
 
-console.log(rodolfo)
+console.log(person)
